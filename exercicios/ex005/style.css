@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4a2c8a;
+    font-family: Arial, sans-serif;
+    padding: 30px 16px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== CARD FORMULÁRIO ===== */
+.card-form {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 28px 24px 24px;
+    width: 100%;
+    max-width: 490px;
+}
+
+h1 {
+    color: #4a4aff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.form-group {
+    background-color: #ebe8f5;
+    border-radius: 10px;
+    padding: 10px 14px 14px;
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: inline-block;
+    background-color: #d6d0ea;
+    color: #333333;
+    font-size: 0.82rem;
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #cccccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-group input[type="number"]:focus {
+    border-color: #4a4aff;
+}
+
+.btn-calcular {
+    width: 100%;
+    padding: 14px;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.btn-calcular:hover {
+    background-color: #43a047;
+}
+
+/* ===== CARD RESULTADO ===== */
+.card-resultado {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 24px 24px;
+    width: 100%;
+    max-width: 490px;
+    margin-top: 20px;
+}
+
+.card-resultado h2 {
+    color: #1a237e;
+    font-size: 1.35rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.card-resultado p {
+    color: #222222;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.card-resultado ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.card-resultado ul li {
+    color: #222222;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+.card-resultado ul li strong {
+    color: #000000;
+}

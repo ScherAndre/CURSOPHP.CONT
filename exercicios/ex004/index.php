@@ -1,5 +1,5 @@
 <?php
-$salario_minimo = 1380.00;
+$salario_minimo = 1650.00;
 $resultado = null;
 $salario = null;
 

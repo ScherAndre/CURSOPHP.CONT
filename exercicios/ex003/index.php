@@ -113,8 +113,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       -moz-appearance: textfield;
     }
     .campo input[type="number"]::-webkit-inner-spin-button { display: none; }
+    .campo input[type="number"]::-webkit-outer-spin-button { display: none; }
     .campo input[type="number"] {
       appearance: textfield;
+      -webkit-appearance: textfield;
       -moz-appearance: textfield;
     }
     .campo input[type="number"]:focus {

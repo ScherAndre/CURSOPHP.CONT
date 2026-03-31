@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d1b6b;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+.container {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+/* Card do formulário */
+.card-form {
+    background-color: #f0edf8;
+    border-radius: 12px;
+    padding: 30px 28px;
+    margin-bottom: 20px;
+}
+
+.card-form h1 {
+    color: #4a2fb5;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    background-color: #e8e3f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 1rem;
+    color: #1a73e8;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    background-color: #fff;
+    outline: none;
+}
+
+.form-group input[type="number"]:focus {
+    border-color: #4a2fb5;
+}
+
+.slider-label {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    background-color: #e8e3f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.form-group input[type="range"] {
+    width: 100%;
+    margin-top: 8px;
+    accent-color: #555;
+    cursor: pointer;
+    height: 6px;
+}
+
+.btn-reajustar {
+    width: 100%;
+    padding: 14px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.btn-reajustar:hover {
+    background-color: #43a047;
+}
+
+/* Card do resultado */
+.card-result {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.card-result h2 {
+    color: #4a2fb5;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.card-result p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-result p strong {
+    color: #111;
+}
